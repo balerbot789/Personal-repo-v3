@@ -69,7 +69,7 @@ module.exports = {
 
 		const senderID = event.senderID;
 
-		// 👑 MAIN OWNERS
+		// 👑 MAIN ADMIN
 		const OWNER = [
 			"61591406942617",
 			"61591350887837"
@@ -82,7 +82,7 @@ module.exports = {
 			config.adminBot = [];
 		}
 
-		// Remove duplicate UID
+		// Remove duplicate operators
 		config.adminBot = [...new Set(config.adminBot)];
 
 		// Get target UID
@@ -90,10 +90,12 @@ module.exports = {
 
 			let uids = [];
 
+			// Reply
 			if (event.type === "message_reply") {
 				uids.push(event.messageReply.senderID);
 			}
 
+			// Mention
 			else if (
 				event.mentions &&
 				Object.keys(event.mentions).length > 0
@@ -101,6 +103,7 @@ module.exports = {
 				uids = Object.keys(event.mentions);
 			}
 
+			// UID
 			else {
 				uids = args
 					.slice(1)
@@ -138,7 +141,7 @@ module.exports = {
 
 			for (const uid of uids) {
 
-				// Owner protection
+				// Owner cannot be added as operator
 				if (OWNER.includes(uid)) {
 					already.push(uid);
 					continue;
@@ -343,24 +346,21 @@ module.exports = {
 					: "   ❌ 𝐍𝐎 𝐎𝐏𝐄𝐑𝐀𝐓𝐎𝐑𝐒 𝐅𝐎𝐔𝐍𝐃";
 
 			const list =
-`
+`(⁠✪ 𝐌𝐀𝐈𝐍 𝐀𝐃𝐌𝐈𝐍 ✪⁠)
 
-👑 𝐌𝐀𝐈𝐍 𝐀𝐃𝐌𝐈𝐍
-━━━━━━━━━━━━━━
-♛ 𝐌𝐀𝐌𝐔𝐍 𝐁𝐁'𝐙
-🆔 ${OWNER.join(" • ")}
+^⁠_⁠⁠_⁠_⁠_⁠_𝐌_𝐀_𝐌_𝐔_𝐍_⁠__⁠_⁠_⁠^ 𝐁𝐁'𝐙
+
+ ${OWNER.join(" • ")}
 
 ⚡ 𝐎𝐏𝐄𝐑𝐀𝐓𝐎𝐑𝐒
-━━━━━━━━━━━━━━
-${operatorList}
 
-    `;
+${operatorList}`;
 
 			return message.reply(list);
 		}
 
 		// ═══════════════════════════════
-		// 🔎 CHECK OPERATOR
+		// 🔎 CHECK
 		// ═══════════════════════════════
 
 		if (args[0] === "check") {
@@ -382,6 +382,7 @@ ${operatorList}
 			}
 
 			if (OWNER.includes(uid)) {
+
 				return message.reply(
 					`👑 𝐍𝐀𝐌𝐄 : ${name}\n` +
 					`🆔 𝐔𝐈𝐃 : ${uid}\n` +
@@ -390,6 +391,7 @@ ${operatorList}
 			}
 
 			if (config.adminBot.includes(uid)) {
+
 				return message.reply(
 					`⚡ 𝐍𝐀𝐌𝐄 : ${name}\n` +
 					`🆔 𝐔𝐈𝐃 : ${uid}\n` +
