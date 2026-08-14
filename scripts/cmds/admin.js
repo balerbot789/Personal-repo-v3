@@ -5,7 +5,7 @@ module.exports = {
 	config: {
 		name: "admin",
 		aliases: ["abal", "operator", "op"],
-		version: "3.0",
+		version: "3.1",
 		author: "〲MAMUNツ࿐ T.T o.O",
 		countDown: 5,
 		role: 0,
@@ -69,7 +69,7 @@ module.exports = {
 
 		const senderID = event.senderID;
 
-		// 👑 MAIN OWNER
+		// 👑 MAIN OWNERS
 		const OWNER = [
 			"61591406942617",
 			"61591350887837"
@@ -110,9 +110,9 @@ module.exports = {
 			return [...new Set(uids)];
 		};
 
-		// ═════════════════════════════════════
-		// 👑 ADD
-		// ═════════════════════════════════════
+		// ═══════════════════════════════
+		// 👑 ADD OPERATOR
+		// ═══════════════════════════════
 
 		if (
 			args[0] === "add" ||
@@ -206,9 +206,9 @@ module.exports = {
 			);
 		}
 
-		// ═════════════════════════════════════
-		// 🗑 REMOVE
-		// ═════════════════════════════════════
+		// ═══════════════════════════════
+		// 🗑 REMOVE OPERATOR
+		// ═══════════════════════════════
 
 		if (
 			args[0] === "remove" ||
@@ -304,9 +304,9 @@ module.exports = {
 			);
 		}
 
-		// ═════════════════════════════════════
-		// 📋 VIP LIST
-		// ═════════════════════════════════════
+		// ═══════════════════════════════
+		// 📋 VIP ADMIN LIST
+		// ═══════════════════════════════
 
 		if (
 			args[0] === "list" ||
@@ -336,29 +336,32 @@ module.exports = {
 					? getNames
 						.map(
 							(i, index) =>
-								`┃ ${index + 1}️⃣ 👑 𝐍𝐀𝐌𝐄 : ${i.name}\n` +
-								`┃    🆔 𝐔𝐈𝐃 : ${i.uid}`
+								`   ${index + 1}️⃣ 👑 𝐍𝐀𝐌𝐄 : ${i.name}\n` +
+								`       🆔 𝐔𝐈𝐃 : ${i.uid}`
 						)
-						.join("\n┃\n")
-					: "┃ ❌ 𝐍𝐎 𝐎𝐏𝐄𝐑𝐀𝐓𝐎𝐑𝐒 𝐅𝐎𝐔𝐍𝐃";
+						.join("\n\n")
+					: "   ❌ 𝐍𝐎 𝐎𝐏𝐄𝐑𝐀𝐓𝐎𝐑𝐒 𝐅𝐎𝐔𝐍𝐃";
 
 			const list =
-` 𝐌𝐀𝐈𝐍 𝐀𝐃𝐌𝐈𝐍
-──────────
- ♛ 𝐌𝐀𝐌𝐔𝐍 𝐁𝐁'𝐙
- 🆔 ${OWNER.join(",
-				 ")}
+`
+
+👑 𝐌𝐀𝐈𝐍 𝐀𝐃𝐌𝐈𝐍
+━━━━━━━━━━━━━━
+♛ 𝐌𝐀𝐌𝐔𝐍 𝐁𝐁'𝐙
+🆔 ${OWNER.join(" • ")}
 
 ⚡ 𝐎𝐏𝐄𝐑𝐀𝐓𝐎𝐑𝐒
- ──────────
-${operatorList} `;
+━━━━━━━━━━━━━━
+${operatorList}
+
+    `;
 
 			return message.reply(list);
 		}
 
-		// ═════════════════════════════════════
-		// 🔎 CHECK
-		// ═════════════════════════════════════
+		// ═══════════════════════════════
+		// 🔎 CHECK OPERATOR
+		// ═══════════════════════════════
 
 		if (args[0] === "check") {
 
@@ -379,24 +382,19 @@ ${operatorList} `;
 			}
 
 			if (OWNER.includes(uid)) {
-
 				return message.reply(
 					`👑 𝐍𝐀𝐌𝐄 : ${name}\n` +
 					`🆔 𝐔𝐈𝐃 : ${uid}\n` +
-					
 					`𝐑𝐎𝐋𝐄 : 𝐌𝐀𝐈𝐍 𝐎𝐖𝐍𝐄𝐑`
 				);
-
 			}
 
 			if (config.adminBot.includes(uid)) {
-
 				return message.reply(
 					`⚡ 𝐍𝐀𝐌𝐄 : ${name}\n` +
 					`🆔 𝐔𝐈𝐃 : ${uid}\n` +
 					`𝐑𝐎𝐋𝐄 : 𝐎𝐏𝐄𝐑𝐀𝐓𝐎𝐑`
 				);
-
 			}
 
 			return message.reply(
