@@ -60,8 +60,7 @@ module.exports = {
 
       // Final Message
       const msg = `
-╭─❍ FACEBOOK INFO ❍─╮
-
+      
 👤 Name: ${user.name || "Unknown"}
 🆔 UID: ${uid}
 🌐 Username: ${username}
@@ -69,7 +68,6 @@ module.exports = {
 🔗 Profile:
 https://facebook.com/${uid}
 
-╰─✦ 𝗣𝗢𝗢𝗞𝗜𝗘 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧 ✦─╯
 `;
 
       return message.reply(msg);
