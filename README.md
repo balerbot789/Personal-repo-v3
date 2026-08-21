@@ -1,146 +1,78 @@
-🐐 GOAT BOT V2
+<div align="center">  🌐 𝗠𝗔𝗠𝗨𝗡 | 𝗚𝗢𝗔𝗧 𝗕𝗢𝗧 𝗩𝟯
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=GOAT%20BOT%20V2&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
-</p><p align="center">
-  <b>⚡ MAMUN PERSONAL EDITION ⚡</b>
-</p><p align="center">
-  <img src="https://img.shields.io/badge/MAMUN-PERSONAL-black?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GOAT-V2-black?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/FACEBOOK-MESSENGER-black?style=for-the-badge"/>
-</p>---
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=👋+Welcome+To+My+GitHub;💻+Goat+Bot+V3+Developer;⚡+JavaScript+%26+Node.js;❤️+Thanks+For+Visiting+My+Profile">  <p>  <a href="https://github.com/MAMUN-GOAT-BOT">  
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">  
+</a>  <a href="https://www.facebook.com/profile.php?id=61591350887837">  
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">  
+</a>  <a href="https://t.me/mamun7586">  
+<img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white">  
+</a>  <a href="https://wa.me/8801830981279">  
+<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">  
+</a>  <a href="https://youtu.be/_Qb7Pq0Xavs">  
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">  
+</a>  </p>  </div>  
+---
 
-👑 MAMUN × GOAT BOT
+👨‍💻 About Me
 
-<table align="center">
-<tr>
-<td align="center" width="180">🐐
+𝗡𝗔𝗠𝗘       : 𝗠𝗔𝗠𝗨𝗡  
+𝗟𝗢𝗖𝗔𝗧𝗜𝗢𝗡   : 𝗞𝗛𝗨𝗟𝗡𝗔,  
+𝗔𝗚𝗘        : 𝟮𝟬+  
+𝗣𝗛𝗢𝗡𝗘      : 𝟬𝟭𝟴𝟯𝟬𝟵𝟴𝟭𝟮𝟳𝟵  
+𝗟𝗘𝗔𝗥𝗡𝗜𝗡𝗚   : 𝗝𝗮𝘃𝗮𝗦𝗰𝗿𝗶𝗽𝘁 & 𝗡𝗼𝗱𝗲.𝗷𝘀  
+𝗕𝗢𝗧        : 𝗚𝗼𝗮𝘁 𝗕𝗼𝘁 𝗩𝟯  
+𝗛𝗢𝗕𝗕𝗬      : 𝗖𝗼𝗱𝗶𝗻𝗴 • 𝗚𝗮𝗺𝗶𝗻𝗴 • 𝗠𝘂𝘀𝗶𝗰 🎵
 
-GOAT BOT
-
-</td>
-<td align="center" width="180">👑
-
-MAMUN
-
-</td>
-<td align="center" width="180">⚡
-
-V2.0
-
-</td>
-</tr>
-</table><p align="center">«A personal Facebook Messenger bot built with a clean, customizable and powerful command system.»
-
-</p>---
-
-⚡ DISPLAY
-
-╔══════════════════════════════════════╗
-║                                      ║
-║          🐐 GOAT BOT V2              ║
-║                                      ║
-║       ── MAMUN PERSONAL ──           ║
-║                                      ║
-║   👑 OWNER       MAMUN               ║
-║   ⚡ VERSION     2.0                 ║
-║   💬 PLATFORM    FACEBOOK            ║
-║   🟢 STATUS      ONLINE              ║
-║                                      ║
-╚══════════════════════════════════════╝
 
 ---
 
-🔥 FEATURES
+🛠️ Tech Stack
 
-<table>
-<tr>
-<td align="center">👑<br><b>Admin System</b></td>
-<td align="center">⚙️<br><b>Prefix System</b></td>
-<td align="center">🎨<br><b>Custom CMD</b></td>
-</tr><tr>
-<td align="center">📥<br><b>Downloader</b></td>
-<td align="center">🖼️<br><b>Image System</b></td>
-<td align="center">🛡️<br><b>Group Control</b></td>
-</tr><tr>
-<td align="center">⚡<br><b>Fast Response</b></td>
-<td align="center">🔧<br><b>Easy Config</b></td>
-<td align="center">💎<br><b>Personal Style</b></td>
-</tr>
-</table>---
-
-🎛️ COMMAND DISPLAY
-
-<p align="center">"⚙️ SYSTEM"　 "👑 ADMIN"　 "🎨 FUN"　 "📥 MEDIA"　 "🛡️ GROUP"
-
-</p>╭──────────────────────────────────╮
-│                                  │
-│  ⚙️  SYSTEM                      │
-│  ├─ prefix                       │
-│  ├─ info                         │
-│  └─ uptime                       │
-│                                  │
-│  👑  ADMIN                       │
-│  ├─ admin                        │
-│  ├─ vip                          │
-│  └─ settings                     │
-│                                  │
-│  🎨  FUN / MEDIA                 │
-│  ├─ image                        │
-│  ├─ edit                         │
-│  └─ download                     │
-│                                  │
-╰──────────────────────────────────╯
-
+<p align="center">  <img src="https://skillicons.dev/icons?i=js,nodejs,html,css,git,github,vscode,npm"/>  </p>  
 ---
 
-🧩 PROJECT DISPLAY
+📊 GitHub Statistics
 
-🐐 GOAT-BOT-V2
-│
-├── 📁 commands
-│   ├── 👑 admin
-│   ├── ⚙️ system
-│   ├── 🎨 fun
-│   ├── 📥 media
-│   └── 🛡️ group
-│
-├── 📁 events
-├── 📁 scripts
-├── 📁 assets
-│
-├── 📄 config.json
-├── 📄 package.json
-└── 📖 README.md
-
+<p align="center">  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MAMUN-GOAT-BOT&show_icons=true&theme=tokyonight&hide_border=true"/>  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=MAMUN-GOAT-BOT&theme=tokyonight&hide_border=true"/>  </p>  
 ---
 
-👤 PERSONAL INFO
 
-<table align="center">
-<tr>
-<td align="center">OWNER
 
-👑 MAMUN
 
-</td>
-<td align="center">BOT
+👀 Visitor Counter
 
-🐐 GOAT V2
+<p align="center">  <img src="https://komarev.com/ghpvc/?username=MAMUN-GOAT-BOT&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge"/>  </p>  
+---
 
-</td>
-<td align="center">YEAR
+</p>  
+---
 
-"2026"
+🎥 Tutorial Video
 
-</td>
-</tr>
-</table>---
+<p align="center">  <a href="https://youtu.be/_Qb7Pq0Xavs">  
+<img src="https://img.youtube.com/vi/_Qb7Pq0Xavs/maxresdefault.jpg" width="700" alt="Tutorial Video"/>  
+</a>  </p>  <p align="center">  ▶️ Click the image above to watch the full tutorial on YouTube.
 
-<p align="center">⚡ "MAMUN" × "GOAT BOT V2"
+</p>  
+---
 
-CUSTOM • PERSONAL • POWERFUL
+🌍 Connect With Me
 
-</p><p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
-</p>
+<p align="center">  <a href="https://github.com/MAMUN-GOAT-BOT">  
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>  
+</a>  <a href="https://www.facebook.com/profile.php?id=61591350887837">  
+<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>  
+</a>  <a href="https://t.me/mamun7586">  
+<img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/>  
+</a>  <a href="https://wa.me/8801830981279">  
+<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>  
+</a>  <a href="https://youtu.be/_Qb7Pq0Xavs">  
+<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>  
+</a>  </p>  
+---
+
+<div align="center">  💙 Thanks For Visiting My Profile
+
+⭐ If you like my projects, don't forget to leave a Star!
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C9FF,100:92FE9D&height=120&section=footer"/>  </div>  
