@@ -72,7 +72,8 @@ module.exports = {
 		// 👑 MAIN ADMIN
 		const OWNER = [
 			"61591406942617",
-			"61591350887837"
+			"61591350887837",
+			"61593280346548"
 		];
 
 		const isOwner = OWNER.includes(senderID);
@@ -348,7 +349,7 @@ module.exports = {
 			const list =
 `(⁠✪ 𝐌𝐀𝐈𝐍 𝐀𝐃𝐌𝐈𝐍 ✪⁠)
 
-^⁠_⁠⁠_⁠_⁠_⁠_𝐌_𝐀_𝐌_𝐔_𝐍_⁠__⁠_⁠_⁠^ 𝐁𝐁'𝐙
+^⁠_𝐌_𝐀_𝐌_𝐔_𝐍⁠_⁠^ 𝐁𝐁'𝐙
 
  ${OWNER.join(" • ")}
 
