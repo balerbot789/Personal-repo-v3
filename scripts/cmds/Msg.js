@@ -1,6 +1,6 @@
 const { getStreamFromURL } = global.utils;
 
-const OWNER_ID = "61591050345469";
+const OWNER_ID = "61594336196895";
 const ADMIN_GROUP = "4095426180772827";
 
 module.exports = {
