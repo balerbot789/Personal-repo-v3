@@ -9,8 +9,8 @@ const CACHE_PATH = path.join(__dirname, "cache");
 
 module.exports = {
   config: {
-    name: "uptime",
-    aliases: ["up2", "runtime", "dashboard", "status"],
+    name: "up2",
+    aliases: ["up2"],
     version: "1.7",
     author: "Mamun",
     countDown: 5,
