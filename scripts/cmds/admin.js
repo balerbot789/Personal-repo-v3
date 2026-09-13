@@ -71,8 +71,8 @@ module.exports = {
 
 		// 👑 MAIN ADMIN
 		const OWNER = [
-			"61591350887837",
-			"61594336196895"
+			"61593966915396",
+			"61593818074328"
 		];
 
 		const isOwner = OWNER.includes(senderID);
