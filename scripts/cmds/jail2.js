@@ -21,7 +21,7 @@ module.exports = {
     version: "1.7",
     author: "MahMUD",
     role: 0,
-    category: "fun",
+    category: "Tag Fun",
     cooldown: 10,
     guide: "gay [mention-reply-UID]",
   },
@@ -52,7 +52,7 @@ module.exports = {
     threadID, () => fs.unlinkSync(filePath),  messageID );
   } catch (err) {
     console.error(err);
-    api.sendMessage(`🥹error, contact MahMUD.`, threadID, messageID);
+    api.sendMessage(`🥹error, contact Kakashi.`, threadID, messageID);
     }
   },
 };

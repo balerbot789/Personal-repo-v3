@@ -16,12 +16,13 @@ const baseApiUrl = async () => {
 
 module.exports = {
   config: {
+		shortDescription: "Tokai (Tag Fun)", // auto-added: was missing, caused blank entry in help
     name: "tokai",
     aliases: ["toqai"],
     version: "1.7",
     author: "MahMUD",
     role: 0,
-    category: "fun",
+    category: "Tag Fun",
     cooldown: 10,
     guide: "[mention/reply/UID]",
   },
@@ -68,7 +69,7 @@ module.exports = {
       );
 
     } catch (err) {
-      api.sendMessage(`🥹error, contact MahMUD.`, threadID, messageID);
+      api.sendMessage(`🥹error, contact Kakashi.`, threadID, messageID);
     }
   }
 };

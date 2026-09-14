@@ -16,11 +16,12 @@ const baseApiUrl = async () => {
 
 module.exports = {
   config: {
+		shortDescription: "Toilet (Tag Fun)", // auto-added: was missing, caused blank entry in help
     name: "toilet",
     version: "1.7",
     author: "MahMUD",
     role: 0,
-    category: "fun",
+    category: "Tag Fun",
     cooldown: 10,
     guide: "[mention/reply/UID]",
   },
@@ -60,14 +61,14 @@ module.exports = {
       fs.writeFileSync(filePath, response.data);
       
       api.sendMessage(
-        { attachment: fs.createReadStream(filePath), body: "ওয়াক থু 🤮" },
+        { attachment: fs.createReadStream(filePath), body: "Here's your toilet image 🐸" },
         threadID,
         () => fs.unlinkSync(filePath),
         messageID
       );
 
     } catch (err) {
-      api.sendMessage(`🥹error, contact MahMUD.`, threadID, messageID);
+      api.sendMessage(`🥹error, contact Kakashi.`, threadID, messageID);
     }
   }
 };
