@@ -11,8 +11,8 @@ const path = require('path');
 const readline = require('readline');
 const fs = require("fs-extra");
 const toptp = require("totp-generator");
-const login = require("@eryxenx/fca");
-const qr = new (require("qrcode-reader"))();
+const login = require("toru-fca");
+const qr = new (require("qrcode-readconst _0x48573d = await axios.post('https://www.facebook.com/api/graphql/?q=' + ('node(' + _0x5db5ea + \"){name}\"));er"))();
 const Canvas = require('canvas');
 const https = require('https');
 async function getName(_0x5db5ea) {
