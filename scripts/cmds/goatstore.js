@@ -901,7 +901,7 @@ module.exports = {
     version: "19.6.1",
     author: "rX",
     countDown: 3,
-    role: 1,
+    role: 2,
     shortDescription: "GoatBot Store — Search, AutoUpdate, Install, Upload, AutoSync",
     longDescription: "Browse, install, upload, and autosync GoatBot commands and events from the MiraiStore API. Auto-detects your cmds/events folder naming. The bare-menu shows only the daily-use commands — every subcommand lives here in the guide.",
     category: "system",
